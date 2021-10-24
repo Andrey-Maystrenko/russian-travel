@@ -1,0 +1,5 @@
+.header__logo{
+    width: 176px;
+    height: 52px;
+    padding-right: calc(100% - 176px - 30px - 18px - 29px);
+}

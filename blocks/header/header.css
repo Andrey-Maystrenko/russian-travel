@@ -1,0 +1,12 @@
+.header{
+  margin: 0 auto 0;
+}
+@media screen and (min-width: 1280px) {
+  .header{
+    min-width: 1184px;
+    padding: 28px 48px 0;
+    display:flex;
+    justify-content:left;
+    align-items: center;
+  }
+}
