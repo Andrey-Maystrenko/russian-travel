@@ -13,3 +13,10 @@
 .header__lang-link:nth-of-type(1) {
     margin-right: 18px;
 }
+
+@media screen and (max-width: 7673px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+  }

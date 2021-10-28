@@ -1,9 +1,33 @@
-.footer{
-width: 1184px;
-height: 18px;
-margin: 92px auto 0;
-padding-bottom: 25px;
-display: flex;
-justify-content: left;
-align-items: center;
+.footer {
+    width          : 1184px;
+    height         : 18px;
+    margin         : 92px auto 0;
+    padding-bottom : 25px;
+    display        : flex;
+    justify-content: left;
+    align-items    : center;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer {
+        width: 91%
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        width          : 320px;
+        height         : none;
+        margin         : 0 auto 0;
+        margin-top     : 32px;
+        padding-bottom : none;
+        padding-left   : 16px;
+        display        : flex;
+        flex-direction : column;
+        justify-content: top;
+        align-items    : flex-start;
+
+    }
+
 }
