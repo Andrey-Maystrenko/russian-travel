@@ -1,5 +1,5 @@
 .page {
-  min-width  : 1280px;
+  width      : 100%;
   font-family: 'Inter';
   color      : #FFFFFF;
   background : #2a2c2f;
@@ -20,7 +20,6 @@
 
 @media screen and (max-width: 767px) {
   .page {
-    min-width : 320px;
-    min-height: 10060px;
+    min-width: 320px;
   }
 }
