@@ -1,10 +1,7 @@
-.intro__list {
-    list-style : none;
-    padding    : 0;
-    margin     : 33px 0 0;
+.intro__span-no-accent {
     font-family: Inter;
     font-style : normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size  : 12px;
     line-height: 18px;
     color      : #FFFFFF;

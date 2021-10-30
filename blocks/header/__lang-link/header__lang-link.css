@@ -4,7 +4,6 @@
     font-weight    : normal;
     font-size      : 24px;
     line-height    : 28px;
-    /* identical to box height, or 117% */
     text-decoration: none;
     color          : #FFFFFF;
     margin         : 0%;
@@ -12,7 +11,7 @@
 
 .header__lang-link:nth-of-type(1) {
     margin-right: 18px;
-    text-decoration: underline;
+    
 }
 
 @media screen and (max-width: 7673px) {
