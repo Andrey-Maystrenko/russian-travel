@@ -1,7 +1,7 @@
 .cover {
     max-width          : 1184px;
     min-height         : 740px;
-    margin             : 0 auto;
+    margin             : 12px auto 0;
     display            : flex;
     flex-direction     : column;
     justify-content    : top;
@@ -10,10 +10,9 @@
     background-size    : cover;
     background-repeat  : no-repeat;
     background-position: center;
-    text-decoration: none;
-    /* box-sizing: border-box; */
+    text-decoration    : none;
     position           : relative;
-    z-index   : 1;
+    z-index            : 1;
 
 
 }
@@ -28,26 +27,30 @@
     top       : 0;
     left      : 0;
     z-index   : -1;
+    transition: opacity .5s;
 }
 
 .cover:hover:after {
-    opacity: .7;
+    opacity: .8;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
-        
+
     }
 }
+
 @media screen and (max-width: 1023px) {
     .cover {
         min-height: 480px;
+        margin    : 17px auto 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
         min-height: 200px;
+        margin    : 41px auto 0;
     }
-} 
+}

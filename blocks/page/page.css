@@ -1,6 +1,6 @@
 .page {
-  width      : 100%;
-  font-family: 'Inter';
+  min-width  : 100%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   color      : #FFFFFF;
   background : #2a2c2f;
   margin     : 0;

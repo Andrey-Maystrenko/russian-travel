@@ -1,16 +1,12 @@
 .place__website {
     max-width : 100%;
     box-sizing: border-box;
-    height    : 46px;
     margin    : 0;
     align-self: end;
 }
 
 @media screen and (max-width:767px) {
     .place__website {
-        /* max-width : 100%;
-        box-sizing: border-box; */
-        width: 320px;
-        padding: 0 0 0 16px;
+        padding: 0 16px;
     }
 }
