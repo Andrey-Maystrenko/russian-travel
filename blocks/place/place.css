@@ -9,10 +9,7 @@
 
 @media screen and (max-width: 1279px) {
     .place {
-        display              : grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows   : 1fr auto;
-        column-gap           : 32px;
+        column-gap: 32px;
     }
 }
 
