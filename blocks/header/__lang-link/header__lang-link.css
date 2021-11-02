@@ -7,10 +7,15 @@
     text-decoration: none;
     color          : #FFFFFF;
     margin         : 0%;
+    transition     : opacity .5s;
 }
 
 .header__lang-link:nth-of-type(1) {
     margin-right: 18px;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 767px) {

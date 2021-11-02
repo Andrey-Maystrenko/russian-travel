@@ -13,7 +13,7 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="логотип">
       <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-      <a class="header__lang-link header__lang-link_active" href="#">En</a>
+      <a class="header__lang-link" href="#">En</a>
     </header>
     <main>
       <section class="lead">
@@ -141,19 +141,18 @@
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
       </section>
-      <section>
-        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <section class="cover">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
-          <div class="cover__overlay"></div>
         </a>
       </section>
     </main>
-    <footer>
-      <nav>
-        <ul class="footer">
-          <li>
+    <footer class="footer">
+      <nav class="footer__menu">
+        <ul class="footer__links">
+          <li class="footer__link-interval">
             <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
           </li>
           <li class="footer__link-interval">
@@ -168,11 +167,8 @@
           <li class="footer__link-interval">
             <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
           </li>
-          <li class="footer__copyright-interval">
-            <p class="footer__copyright">© 2021. Андрей Майстренко</p>
-          </li>
         </ul>
-
+        <p class="footer__copyright">© 2021. Андрей Майстренко</p>
       </nav>
     </footer>
   </div>

@@ -2,4 +2,8 @@
     .footer__link-interval {
         margin: 32px 0 0;
     }
+
+    .footer__link-interval:nth-child(1) {
+        margin: 0;
+    }
 }

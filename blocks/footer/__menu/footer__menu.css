@@ -1,0 +1,16 @@
+.footer__menu {
+    width          : 100%;
+    display        : flex;
+    justify-content: left;
+    align-items    : center;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__menu {
+        /* display        : flex;
+        flex-direction : column;
+        justify-content: top;
+        align-items    : flex-start; */
+        display: inline;
+    }
+}

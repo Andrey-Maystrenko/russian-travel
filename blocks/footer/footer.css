@@ -1,11 +1,7 @@
 .footer {
-    max-width      : 1184px;
-    margin         : 92px auto 0;
-    padding        : 0 0 25px 0;
-    display        : flex;
-    justify-content: left;
-    align-items    : center;
-    list-style     : none;
+    max-width: 1184px;
+    margin   : 92px auto 0;
+    padding  : 0 0 24px 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,12 +19,8 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        width          : 304px;
-        margin         : 64px auto 0;
-        padding        : 0 0 24px 16px;
-        display        : flex;
-        flex-direction : column;
-        justify-content: top;
-        align-items    : flex-start;
+        width  : 304px;
+        margin : 64px auto 0;
+        padding: 0 0 24px 16px;
     }
 }

@@ -1,8 +1,0 @@
-.footer__copyright_interval_m{
-    margin: 0 0 0 auto;
-}
-@media screen and (max-width: 767px) {
-    .footer__copyright_interval_m {
-        margin: 48px 0 0;
-    }
-}
