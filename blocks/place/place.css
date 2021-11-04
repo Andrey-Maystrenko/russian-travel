@@ -22,29 +22,9 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        grid-template-columns   : 1fr;
-        row-gap                 : 32px;
-        column-gap              : none;
-        /* margin               : 0 0 38px; */
-    }
-
-    .place:nth-child(1) {
-        margin: 0 0 50px;
-    }
-
-    .place:nth-child(2) {
-        margin: 0 0 26px;
-    }
-
-    .place:nth-child(3) {
-        margin: 0 0 25px;
-    }
-
-    .place:nth-child(4) {
-        margin: 0 0 51px;
-    }
-
-    .place:nth-child(5) {
-        margin: 0 0 38px;
+        grid-template-columns: 1fr;
+        row-gap              : 32px;
+        column-gap           : none;
+        margin               : 0 0 25px;
     }
 }
